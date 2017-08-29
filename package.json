@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/handsontable/react-handsontable.git"
+    "url": "https://github.com/retrolator/react-handsontable.git"
   },
   "bugs": {
     "url": "https://github.com/handsontable/react-handsontable/issues"
@@ -48,7 +48,7 @@
     "moment": "^2.17.1",
     "numbro": "^1.9.3",
     "pikaday": "^1.5.1",
-    "handsontable": "^0.33.0"
+    "handsontable": "git+https://github.com/retrolator/handsontable.git"
   },
   "scripts": {
     "test": "npm run _pre-testing && jest",

@@ -7,3 +7,9 @@ node_js:
 
 before_script:
   - "export TZ=Europe/Warsaw"
+  - 'npm run build'
+  - 'git checkout master'
+  - 'git commit --message "[skip ci] Travis build: $TRAVIS_BUILD_NUMBER" -- dist'
+  - "git remote rm origin"
+  - "git remote add origin https://${GITHUB_TOKEN}@github.com/retrolator/react-handsontable.git"
+  - "git push --quiet --set-upstream origin master"
