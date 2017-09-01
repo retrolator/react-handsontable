@@ -82,5 +82,6 @@
       "__HOT_VERSION__": "",
       "__HOT_BASE_VERSION__": ""
     }
-  }
+  },
+  "typings": "./react-handsontable.d.ts"  
 }
