@@ -9,6 +9,8 @@ import Handsontable from 'handsontable'
 
 declare class HotTable extends React.Component<HotTableProps /*Handsontable.Options*/, any>
 {
+    hotInstance:Handsontable;
+    updateHot(newSettings:Handsontable.Options);
 }
 
 declare interface HotTableProps extends Handsontable.Options/*, React.HTMLProps<HotTable>*/ {
